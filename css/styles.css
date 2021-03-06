@@ -368,8 +368,7 @@ img {
   color: var(--footer-color);
 }
 
-.footer-link-mail,
-.footer-link-address {
+.footer-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
