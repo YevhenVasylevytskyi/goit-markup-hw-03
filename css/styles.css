@@ -319,8 +319,14 @@ img {
 .team-item {
   background-color: var(--footer-color);
 }
+
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .team-name {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -331,7 +337,6 @@ img {
 
 .team-position {
   margin-top: 10px;
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
