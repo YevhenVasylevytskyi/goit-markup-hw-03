@@ -40,9 +40,10 @@
 
     <!--Основной контент-->
     <main>
-        <div class="container">
-            <h1 class="visually-hidden">Наши продукты</h1>
-            <section>
+    <!--Кнопки фильтра-->
+        <section>
+            <div class="container">
+                <h1 class="visually-hidden">Наши продукты</h1>
                 <ul class="filter-list list">
                     <li class="filter-item">
                         <button class="filter-button" type="button">Все</button>
@@ -60,8 +61,12 @@
                         <button class="filter-button" type="button">Маркетинг</button>
                     </li>
                 </ul>
-            
-                <ul class="projects-list list" >
+            </div>
+        </section>
+    <!--Карточки продуктов-->
+        <section>
+            <div class="container">
+                <ul class="projects-list list">
                     <li class="projects-item">
                         <img src="./images/portfolio/project1.jpg" alt="Проект веб-сайта Технокряк" width="370" height="294">
                         <div class="projects-title-name">
@@ -71,9 +76,9 @@
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project2.jpg" alt="Два баскетболиста в схватке" width="370" height="294">
-                            <div class="projects-title-name">
+                        <div class="projects-title-name">
                             <h2 class="projects-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                        <p class="projects-description">Дизайн</p>
+                            <p class="projects-description">Дизайн</p>
                         </div>
                     </li>
                     <li class="projects-item">
@@ -81,52 +86,53 @@
                         <div class="projects-title-name">
                             <h2 class="projects-title">Ресторан <span lang="en">Seafood</span></h2>
                             <p class="projects-description">Приложение</p>
-                        </div>                        
+                        </div>
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project4.jpg" alt="Наушники" width="370" height="294">
                         <div class="projects-title-name">
                             <h2 class="projects-title">Проект <span lang="en">Prime</span></h2>
                             <p class="projects-description">Маркетинг</p>
-                        </div>                        
+                        </div>
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project5.jpg" alt="Упаковочные коробочки" width="370" height="294">
                         <div class="projects-title-name">
                             <h2 class="projects-title">Проект <span lang="en">Boxes</span></h2>
                             <p class="projects-description">Приложение</p>
-                        </div>                        
+                        </div>
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project6.jpg" alt="Монитор с веб-сайтом" width="370" height="294">
                         <div class="projects-title-name">
                             <h2 class="projects-title"><span lang="en">Inspiration has no Borders</span></h2>
                             <p class="projects-description">Веб-сайт</p>
-                        </div>                        
+                        </div>
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project7.jpg" alt="Раскрытая книга" width="370" height="294">
                         <div class="projects-title-name">
                             <h2 class="projects-title">Издание <span lang="en">Limited Edition</span></h2>
                             <p class="projects-description">Дизайн</p>
-                        </div>                       
+                        </div>
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project8.jpg" alt="Бирка с логотипом компаниии" width="370" height="294">
                         <div class="projects-title-name">
                             <h2 class="projects-title">Проект <span lang="en">LAB</span></h2>
                             <p class="projects-description">Маркетинг</p>
-                        </div>                        
+                        </div>
                     </li>
                     <li class="projects-item">
                         <img src="./images/portfolio/project9.jpg" alt="Приложение в ноутбуке" width="370" height="294">
                         <div class="projects-title-name">
                             <h2 class="projects-title"><span lang="en">Growing Business</span></h2>
                             <p class="projects-description">Приложение</p>
-                        </div>                        
-                        </li>
+                        </div>
+                    </li>
                 </ul>
-            </section>
+            </div>
+        </section>
         </div>
 
 
@@ -138,16 +144,17 @@
         <div class="container">
             <h2 class="visually-hidden">Подвал сайта</h2>
     
-            <p><a class="logo link" href="./index.html" lang="en"><span class="logo-web">Web</span><span
-                        class="logo-footer">Studio</span></a></p>
+            <a class="logo logo-footer link" href="./index.html" lang="en"><span class="logo-web">Web</span><span
+                    class="logo-footer-color">Studio</span></a>
     
             <address class="address">
                 <ul class="footer-list list">
-                    <li><a class="footer-link footer-link-address link" href="https://goo.gl/maps/F6Xvro93UMRjj7kQ9">г.
-                            Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a class="footer-link footer-link-mail link" href="mailto:info@devstudio.com"
-                            lang="en">info@devstudio.com</a></li>
-                    <li><a class="footer-link footer-link-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="footer-list-item"><a class="footer-link footer-link-address link"
+                            href="https://goo.gl/maps/F6Xvro93UMRjj7kQ9">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="footer-list-item"><a class="footer-link footer-link-mail link"
+                            href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
+                    <li class="footer-list-item"><a class="footer-link footer-link-contact link"
+                            href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
         </div>
