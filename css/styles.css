@@ -382,11 +382,14 @@ img {
 
 /*стиль фильтра*/
 
+.filter {
+  padding-top: var(--section-pt);
+  padding-bottom: 50px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-top: var(--section-pt);
-  margin-bottom: 50px;
 }
 
 .filter-button {
