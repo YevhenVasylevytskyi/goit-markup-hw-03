@@ -121,7 +121,7 @@ img {
   margin-left: auto;
   align-items: center;
 }
-.tell-link {
+.contact-item:not(:first-child) {
   margin-left: 50px;
 }
 
@@ -129,7 +129,7 @@ img {
   margin-right: 93px;
 }
 
-.nav-item {
+.nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
