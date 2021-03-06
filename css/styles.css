@@ -80,14 +80,18 @@ img {
 /*стиль лого*/
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+.logo-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 /*стиль надписи веб*/
@@ -123,10 +127,6 @@ img {
 }
 .contact-item:not(:first-child) {
   margin-left: 50px;
-}
-
-.logo {
-  margin-right: 93px;
 }
 
 .nav-item:not(:last-child) {
@@ -357,7 +357,10 @@ img {
   padding-bottom: 60px;
 }
 /*цвет лого*/
-.logo-footer {
+/*.logo-footer {
+  margin-right: none;
+}*/
+.logo-footer-color {
   color: var(--footer-color);
 }
 /*адресс*/
