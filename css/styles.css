@@ -350,16 +350,13 @@ img {
 .footer {
   background-color: var(--backround-footer);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
   margin-top: 20px;
-  padding-bottom: 60px;
 }
-/*цвет лого*/
-/*.logo-footer {
-  margin-right: none;
-}*/
+
 .logo-footer-color {
   color: var(--footer-color);
 }
