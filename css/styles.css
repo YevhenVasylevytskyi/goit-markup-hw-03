@@ -430,16 +430,18 @@ img {
   margin-left: -30px;
   margin-top: -30px;
   padding-bottom: var(--section-pb);
-  flex-basis: calc((100% - 60px) / 3);
 }
 
 .projects-item {
   margin-left: 30px;
   margin-top: 30px;
+  flex-basis: calc((100% - 30px) / 3);
+  /*flex-basis: calc((100% - 60px) / 3);*/
   /*border: 1px solid #eeeeee;*/
 }
 
 .projects-title-name {
+  display: block;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
@@ -447,6 +449,8 @@ img {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  /*flex-basis: calc((100% - 30px) / 3);*/
+  /*flex-basis: calc((100% - 60px) / 3);*/
 }
 
 .projects-title {
